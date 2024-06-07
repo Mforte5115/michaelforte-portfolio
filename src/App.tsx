@@ -5,18 +5,24 @@ import { AboutMe } from './Components/AboutMe';
 import { NavBar } from "./Components/NavBar/NavBar"
 
 function App() {
+  const [page, setPage] = useState<string>("Home");
 
+  function changePage(newPage: string) {
+    setPage(newPage);
+}
 
   return (
-    <><NavBar />
-    <div className="snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0">
-      <div className="snap-always snap-center" id="homescreen">
-        <HomePage />
+    <div className='flex flex-col h-screen'>
+      <NavBar page={page} setPage={changePage}/>
+      <div className="snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0">
+        <div className="snap-always snap-center" id="homescreen">
+          <HomePage />
+        </div>
+        <div className="snap-always snap-center" id="aboutme">
+          <AboutMe />
+        </div>
       </div>
-      <div className="snap-always snap-center" id="aboutme">
-        <AboutMe />
-      </div>
-    </div></>
+    </div>
   );  
 }
 
