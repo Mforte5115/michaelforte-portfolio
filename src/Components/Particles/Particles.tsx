@@ -23,7 +23,7 @@ export function ParticlesEffect() {
         () => ({
           background: {
             color: {
-              value: "#0d47a1",
+              value: "FBF6EE",
             },
           },
           fpsLimit: 120,
@@ -50,10 +50,10 @@ export function ParticlesEffect() {
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: "#000000",
             },
             links: {
-              color: "#ffffff",
+              color: "#000000",
               distance: 150,
               enable: true,
               opacity: 0.5,

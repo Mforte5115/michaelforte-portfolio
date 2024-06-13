@@ -17,13 +17,13 @@ export function HomePage() {
                         Hey there,
                     </div>
                     <div className='heythere'>
-                        I'm Michael <span style={{color: '#38D519'}}>Forte</span>
+                        I'm Michael <span style={{color: '#FFB534'}}>Forte</span>
                     </div>
                     <div>
                         <span className='into'>I am into </span><TypingEffect/>
                     </div>
                     <div>
-                        <Button/>
+                        <Button style={{backgroundColor: "#C1F2B0", border: "#C1F2B0"}} />
                     </div>
                 </div>
             </div>
