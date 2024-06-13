@@ -3,10 +3,11 @@ import './TypingEffect.css'
 
 export function TypingEffect() {
     const phrases = [
-        "I am a Mechanical Engineer",
-        "I am a Computer Scientist",
-        "I am a technology enthusiast",
-        "I turn ideas into reality"
+        "mechaical engineering",
+        "robotics",
+        "web development",
+        "hardware programming",
+        "aerospace design"
     ];
 
     return (
