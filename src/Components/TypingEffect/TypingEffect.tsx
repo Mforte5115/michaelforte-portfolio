@@ -1,28 +1,22 @@
-import React, { useState } from 'react';
-import { ReactTyped } from 'react-typed';
+import { ReactTyped } from "react-typed";
+import './TypingEffect.css'
 
 export function TypingEffect() {
-    const [loopCount, setLoopCount] = useState<number>(0);
-
     const phrases = [
         "I am a Mechanical Engineer",
         "I am a Computer Scientist",
-        "I turn ideas into Reality"
+        "I am a technology enthusiast",
+        "I turn ideas into reality"
     ];
 
-    const handleComplete = () => {
-        setLoopCount((prevLoopCount) => prevLoopCount + 1);
-    };
-
     return (
-        <ReactTyped
+        <ReactTyped className="typedtext"
             strings={phrases}
             typeSpeed={40}
-            backSpeed={50}
+            backSpeed={60}
             backDelay={1000}
             startDelay={1000}
-            loop={loopCount < phrases.length - 1}
-            onComplete={handleComplete}
+            loop
         />
-    )
-} 
+    );
+}
