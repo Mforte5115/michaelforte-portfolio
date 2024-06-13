@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/michaelforte-portfolio/static/css/main.0cef5ff7.css",
-    "main.js": "/michaelforte-portfolio/static/js/main.23812ae7.js",
+    "main.css": "/michaelforte-portfolio/static/css/main.a0da0e73.css",
+    "main.js": "/michaelforte-portfolio/static/js/main.d6f1410c.js",
     "static/js/453.76fc6bd0.chunk.js": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js",
     "static/media/headshot.jpg": "/michaelforte-portfolio/static/media/headshot.c1b44ce307b33359cd46.jpg",
     "static/media/MAINBRG_.TTF": "/michaelforte-portfolio/static/media/MAINBRG_.10d7281e455719854870.TTF",
     "index.html": "/michaelforte-portfolio/index.html",
-    "main.0cef5ff7.css.map": "/michaelforte-portfolio/static/css/main.0cef5ff7.css.map",
-    "main.23812ae7.js.map": "/michaelforte-portfolio/static/js/main.23812ae7.js.map",
+    "main.a0da0e73.css.map": "/michaelforte-portfolio/static/css/main.a0da0e73.css.map",
+    "main.d6f1410c.js.map": "/michaelforte-portfolio/static/js/main.d6f1410c.js.map",
     "453.76fc6bd0.chunk.js.map": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cef5ff7.css",
-    "static/js/main.23812ae7.js"
+    "static/css/main.a0da0e73.css",
+    "static/js/main.d6f1410c.js"
   ]
 }
