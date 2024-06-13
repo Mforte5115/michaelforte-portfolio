@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { HomePage } from './Components/HomePage/HomePage';
-import { AboutMe } from './Components/AboutMe';
+import { AboutMe } from './Components/AboutMe/AboutMe';
 import { NavBar } from "./Components/NavBar/NavBar"
 import {ParticlesEffect} from './Components/Particles/Particles'
 
