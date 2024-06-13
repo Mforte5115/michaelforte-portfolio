@@ -1,6 +1,6 @@
 import React from 'react';
 import headshot from './headshot.jpg'
-import { Card } from 'react-bootstrap';
+import { TypingEffect } from '../TypingEffect/TypingEffect';
 
 export function HomePage() {
 
@@ -11,16 +11,7 @@ export function HomePage() {
                     <img src={headshot} alt='headshot' className="rounded-xl max-h-screen h-auto w-full max-w-md object-contain"/>
                 </div>
                 <div className="flex-1 flex justify-center items-center">
-                    <Card>
-                        <Card.Body>
-                            <Card.Title>
-                                About me
-                            </Card.Title>
-                            <Card.Text>
-                                This is a cool about me section
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <TypingEffect/>
                 </div>
             </div>
         </div>
