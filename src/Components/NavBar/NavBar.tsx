@@ -11,7 +11,7 @@ export function NavBar({page, setPage}: {page: string; setPage: (newPage: string
     }
     
     return (
-        <Navbar className="h-12" expand="lg">
+        <Navbar style={{backgroundColor: "#C1F2B0"}} className="h-12" expand="lg">
             <Container fluid>
                 <Navbar.Brand onClick={() => handleNavClick("Home")} href="#home">
 
@@ -19,7 +19,7 @@ export function NavBar({page, setPage}: {page: string; setPage: (newPage: string
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
                     <Nav className="d-flex flex-grow-1 align-items-left me-auto">
-                        <Nav.Link onClick={() => handleNavClick("Home")}>
+                        <Nav.Link style={{color: "#000000"}} onClick={() => handleNavClick("Home")}>
                             Home
                         </Nav.Link>
                     </Nav>
