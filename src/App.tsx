@@ -18,7 +18,7 @@ function App() {
       <ParticlesEffect/>
       </div>
       <NavBar page={page} setPage={changePage}/>
-      <div className="snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0">
+      <div className="h-page snap-y snap-mandatory overflow-y-scroll flex-grow z-0">
         <div className="snap-always snap-center" id="homescreen">
           <HomePage />
         </div>
