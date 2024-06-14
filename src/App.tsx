@@ -22,7 +22,7 @@ function App() {
         <div className="snap-always snap-center" id="homescreen">
           <HomePage />
         </div>
-        <div className="snap-always snap-center" id="aboutme">
+        <div className="snap-always snap-center px-0" id="aboutme">
           <AboutMe />
         </div>
       </div>
