@@ -3,7 +3,7 @@ import React from 'react';
 export function AboutMe() {
 
     return (
-        <div className={'relative h-page flex px-0'}>
+        <div className={'relative h-dvh flex px-0'}>
             <div  style={{fontFamily: 'CustomPixelFont'}} className="container max-w-screen-xl mx-auto flex flex-col justify-start md:justify-center items-center text-2xl space-y-8">
                 <div className='about-page-title'>
                     About Me

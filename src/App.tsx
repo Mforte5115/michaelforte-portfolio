@@ -13,12 +13,12 @@ function App() {
 }
 
   return (
-    <div className='flex flex-col h-screen'>
+    <div className='flex flex-col h-dvh'>
       <div className="particles">
       <ParticlesEffect/>
       </div>
       <NavBar page={page} setPage={changePage}/>
-      <div className="h-page snap-y snap-mandatory overflow-y-scroll flex-grow z-0">
+      <div className="h-dvh snap-y snap-mandatory overflow-y-scroll flex-grow z-0">
         <div className="snap-always snap-center" id="homescreen">
           <HomePage />
         </div>
