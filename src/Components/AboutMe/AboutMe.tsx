@@ -4,7 +4,7 @@ export function AboutMe() {
 
     return (
         <div className={'relative min-h-screen flex px-0'}>
-            <div  style={{fontFamily: 'CustomPixelFont'}} className="container max-w-screen-xl mx-auto flex flex-col justify-start items-center text-2xl space-y-8">
+            <div  style={{fontFamily: 'CustomPixelFont'}} className="container max-w-screen-xl mx-auto flex flex-col justify-start md:justify-center items-center text-2xl space-y-8">
                 <div className='about-page-title'>
                     About Me
                 </div>
