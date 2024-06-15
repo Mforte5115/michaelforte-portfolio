@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/michaelforte-portfolio/static/css/main.de74f305.css",
-    "main.js": "/michaelforte-portfolio/static/js/main.8fd29082.js",
+    "main.js": "/michaelforte-portfolio/static/js/main.4ee54a7b.js",
     "static/js/453.76fc6bd0.chunk.js": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js",
     "static/media/headshot.jpg": "/michaelforte-portfolio/static/media/headshot.c1b44ce307b33359cd46.jpg",
     "static/media/MAINBRG_.TTF": "/michaelforte-portfolio/static/media/MAINBRG_.10d7281e455719854870.TTF",
     "index.html": "/michaelforte-portfolio/index.html",
     "main.de74f305.css.map": "/michaelforte-portfolio/static/css/main.de74f305.css.map",
-    "main.8fd29082.js.map": "/michaelforte-portfolio/static/js/main.8fd29082.js.map",
+    "main.4ee54a7b.js.map": "/michaelforte-portfolio/static/js/main.4ee54a7b.js.map",
     "453.76fc6bd0.chunk.js.map": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de74f305.css",
-    "static/js/main.8fd29082.js"
+    "static/js/main.4ee54a7b.js"
   ]
 }
