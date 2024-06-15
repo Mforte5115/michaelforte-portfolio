@@ -1,6 +1,7 @@
 // Components/Technologies/Technologies.tsx
 import React from 'react';
 import { Card } from '../Card/Card';
+import './Technologies.css'
 
 // Import icons from react-bootstrap-icons
 import { Bootstrap,  } from 'react-bootstrap-icons';
@@ -26,18 +27,21 @@ const technologies = [
 ];
 
 export function Technologies() {
-  return (
-    <div className="relative h-dvh d-flex justify-content-center align-items-center">
-      <div className="container">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-          {technologies.map((tech) => (
-            <div className="col" key={tech.name}>
-              <Card name={tech.name} Icon={tech.Icon} />
-            </div>
-          ))}
+    return (
+      <div className="relative h-dvh d-flex justify-content-center align-items-center">
+        <div className="container">
+          <div className="text-center mb-4">
+            <h1 className="display-4 technologies">Technologies</h1>
+          </div>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            {technologies.map((tech) => (
+              <div className="col" key={tech.name}>
+                <Card name={tech.name} Icon={tech.Icon} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
