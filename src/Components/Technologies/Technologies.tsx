@@ -1,19 +1,15 @@
-// Components/Technologies/Technologies.tsx
 import React from 'react';
 import { Card } from '../Card/Card';
-import './Technologies.css'
+import './Technologies.css';
 
-// Import icons from react-bootstrap-icons
-import { Bootstrap,  } from 'react-bootstrap-icons';
-import { RiTailwindCssFill, RiReactjsLine } from 'react-icons/ri'
+// Import icons from react-icons
+import { Bootstrap } from 'react-bootstrap-icons';
+import { RiTailwindCssFill, RiReactjsLine } from 'react-icons/ri';
 import { SiTypescript } from "react-icons/si";
-import { FaJava,FaCss3,FaHtml5,FaPython } from "react-icons/fa";
+import { FaJava, FaCss3, FaHtml5, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 
-
 const technologies = [
- // { name: 'SolidWorks', Icon: GearWideConnected }, // Replace with an appropriate icon
-  // { name: 'MATLAB', Icon: FileEarmarkCode }, // Replace with an appropriate icon
   { name: 'Python', Icon: FaPython },
   { name: 'HTML', Icon: FaHtml5 },
   { name: 'CSS', Icon: FaCss3 },
@@ -22,26 +18,25 @@ const technologies = [
   { name: 'TypeScript', Icon: SiTypescript },
   { name: 'React', Icon: RiReactjsLine },
   { name: 'Bootstrap', Icon: Bootstrap },
-  { name: 'Tailwind CSS', Icon: RiTailwindCssFill }, // Replace with an appropriate icon
-  // { name: 'SimScale', Icon: CodeSlash } // Replace with an appropriate icon
+  { name: 'Tailwind CSS', Icon: RiTailwindCssFill },
 ];
 
 export function Technologies() {
-    return (
-      <div className="relative h-dvh d-flex justify-content-center align-items-center">
-        <div className="container">
-          <div className="text-center mb-4">
-            <h1 className="display-4 technologies">Technologies</h1>
-          </div>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-            {technologies.map((tech) => (
-              <div className="col" key={tech.name}>
-                <Card name={tech.name} Icon={tech.Icon} />
-              </div>
-            ))}
-          </div>
+  return (
+    <div className="flex flex-col justify-center items-center min-h-screen py-8">
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-bold">Technologies</h1>
+      </div>
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {technologies.map((tech) => (
+            <div key={tech.name} className="flex justify-center">
+              <Card name={tech.name} Icon={tech.Icon} />
+            </div>
+          ))}
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
