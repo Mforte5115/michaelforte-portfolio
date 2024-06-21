@@ -6,6 +6,13 @@ import { Button } from 'react-bootstrap';
 
 export function HomePage() {
 
+const scrollToAboutme = () => {
+    const aboutMeSection = document.getElementById('aboutme');
+    if (aboutMeSection) {
+        aboutMeSection.scrollIntoView({behavior: 'smooth'})
+    }
+}
+
     return (
         <div className={'relative h-dvh flex'}>
             <div className="container max-w-screen-xl mx-auto flex justify-center items-center space-x-8">
@@ -23,7 +30,11 @@ export function HomePage() {
                         <span className='into'>I am into </span><TypingEffect/>
                     </div>
                     <div>
-                        <Button style={{backgroundColor: "#C1F2B0", border: "#C1F2B0"}} />
+                        <Button 
+                        onClick={scrollToAboutme}
+                        style={{backgroundColor: "#C1F2B0", border: "#C1F2B0"}}>
+                            Learn More 
+                        </Button>
                     </div>
                 </div>
             </div>
