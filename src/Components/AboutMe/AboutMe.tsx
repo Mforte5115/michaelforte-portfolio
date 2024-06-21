@@ -16,11 +16,11 @@ export function AboutMe() {
                         <div>
                             <span style={{color: '#FFB534'}}>Email:</span> michaelf5115@gmail.com
                         </div>
-                        <div>
-                            <span style={{color: '#FFB534'}}>LinkedIn:</span> placeholder
+                        <div style={{color: '#FFB534'}}>
+                            <a href="https://www.linkedin.com/in/forte-michael-meche/" style={{ color: '#FFB534' }} target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </div>
-                        <div>
-                            <span style={{color: '#FFB534'}}>GitHub:</span> placeholder
+                        <div style={{color: '#FFB534'}}>
+                            <a href="https://github.com/Mforte5115" style={{ color: '#FFB534' }} target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                     <div className='text-lg'>
