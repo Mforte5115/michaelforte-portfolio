@@ -4,6 +4,12 @@ import { Chrono } from 'react-chrono'
 
 const items = [
     {
+        title: "February 2021",
+        cardTitle: "Teaching Assistant",
+        cardSubtitle: "Intro to CAD; Engineering Statics; Solid Mechanics; Controls Engineering; Fluid Mechanics",
+        cardDetailedText: "Led multiple weekly discussion sections, graded homework and exams, prepared discussion material."
+    },
+    {
         title: "Summer 2022",
         cardTitle: "PSEG Long Island",
         cardSubtitle: "Project Management Intern",
@@ -14,6 +20,12 @@ const items = [
         cardTitle: "Mack Trucks",
         cardSubtitle: "Manufacturing Engineering Intern",
         cardDetailedText: "The summer of 2023 I worked as a manufacturing engineering intern. I reverse engineered and designed a custom wiring harness for diagnosing truck testing issues. Executed redesign of multiple factory floor stations."
+    },
+    {
+        title: "August 2024",
+        cardTitle: "Norwalt Design, Inc",
+        cardSubtitle: "Controls Engineer",
+        cardDetailedText: "Began working as a controls engineer in high speed manufacturing for Norwalt Design."
     }
 ]
 
