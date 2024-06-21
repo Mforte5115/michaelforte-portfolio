@@ -5,6 +5,7 @@ import { AboutMe } from './Components/AboutMe/AboutMe';
 import {ParticlesEffect} from './Components/Particles/Particles'
 import { Technologies } from './Components/Technologies/Technologies'
 import { Experience } from './Components/Experience/Experience'
+import { Projects } from './Components/Projects/Projects'
 
 function App() {
   // const [page, setPage] = useState<string>("Home");
@@ -28,6 +29,9 @@ function App() {
         </div>
         <div className="snap-always snap-center" id="experience">
           <Experience />
+        </div>
+        <div className="snap-always snap-center" id="projects">
+          <Projects />
         </div>
         <div className="snap-always snap-center" id="technologies">
           <Technologies />
