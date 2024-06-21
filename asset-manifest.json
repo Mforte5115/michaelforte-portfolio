@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/michaelforte-portfolio/static/css/main.b8eeae4a.css",
-    "main.js": "/michaelforte-portfolio/static/js/main.b120157d.js",
+    "main.js": "/michaelforte-portfolio/static/js/main.7c312b95.js",
     "static/js/453.76fc6bd0.chunk.js": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js",
     "static/media/headshot.jpg": "/michaelforte-portfolio/static/media/headshot.c1b44ce307b33359cd46.jpg",
     "static/media/careerquiz.jpg": "/michaelforte-portfolio/static/media/careerquiz.1558cd85ff20123bac77.jpg",
@@ -10,11 +10,11 @@
     "static/media/MAINBRG_.TTF": "/michaelforte-portfolio/static/media/MAINBRG_.10d7281e455719854870.TTF",
     "index.html": "/michaelforte-portfolio/index.html",
     "main.b8eeae4a.css.map": "/michaelforte-portfolio/static/css/main.b8eeae4a.css.map",
-    "main.b120157d.js.map": "/michaelforte-portfolio/static/js/main.b120157d.js.map",
+    "main.7c312b95.js.map": "/michaelforte-portfolio/static/js/main.7c312b95.js.map",
     "453.76fc6bd0.chunk.js.map": "/michaelforte-portfolio/static/js/453.76fc6bd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8eeae4a.css",
-    "static/js/main.b120157d.js"
+    "static/js/main.7c312b95.js"
   ]
 }
